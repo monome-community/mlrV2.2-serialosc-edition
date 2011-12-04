@@ -1,0 +1,10 @@
+*mlrV2.2 serialosc edition
+
+mlrv is a sampling instrument for grid-based music contollers like the monome, livid ohm/block, novation launchpad, and akai apc/mpd. the software allows a sound file or live recording to be mapped across each row and assigned a triggering behavior. within this simple set of constraints and a complete MIDI + OSC remote control system, the performer of electronic music can be freed from the laptop, and at the very least appear to be doing something interesting. mlrv is an refactoring of brian crabtree's original mlr, extended by trent gill (galapagoose) and michael felix (%) of /parallelogram/
+
+This serialosc edition was modified by TheAlphaNerd to add support for serialosc, as the original patch was designed for monomeserial a deprecated serial communication program.
+
+The patch also has two other minor mods.  Serialosc has the serialosnoopy modification, allowing for easy mirroring of monome button presses to other applications, this is primarily designed
+to be utilized for visuals, but could have a number of other uses included network performance.
+
+As well I have included a pattr marker object (pattrmarker mlrv) which allows the pattr database of this program to be broken out to be utilized by other applications, such as the mlrV2.2 plugins that I am currently working on.
